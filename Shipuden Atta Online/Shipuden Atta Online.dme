@@ -1,0 +1,39 @@
+// DM Environment file for Shipuden Atta Online.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "Assets"
+#define FILE_DIR "Assets/Icons"
+#define FILE_DIR "Assets/Icons/New"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "Cache.dm"
+#include "F_Damage.dm"
+#include "F_Damage_Align.dm"
+#include "F_Damage_Global.dm"
+#include "F_DamageCode.dm"
+#include "Shipuden Atta Online.dm"
+#include "interface.dmf"
+#include "academy.dmm"
+#include "Code\Areas.dm"
+#include "Code\characterCreation.dm"
+#include "Code\Items.dm"
+#include "Code\mobs.dm"
+#include "Code\objects.dm"
+#include "Code\playerCommands.dm"
+#include "Code\playerJutsus.dm"
+#include "Code\playerOverride.dm"
+#include "Code\playerProc.dm"
+#include "Code\playerVars.dm"
+#include "Code\turfs.dm"
+// END_INCLUDE
+
