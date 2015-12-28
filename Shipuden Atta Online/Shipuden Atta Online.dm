@@ -50,7 +50,7 @@ world
 	mob = /mob/creating_character
 
 	New()
-		TimeToGeninExam = 10
+		TimeToGeninExam = 300
 		TimeToGeninExamEnd = 60
 		ExamHandler()
 		..()

@@ -1,9 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1451001442
-DIR: Assets\Icons Assets\Icons\New Code 
+LAST_COMPILE_TIME: 1451300854
+DIR: Assets\Icons Code 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 509.1317
+WINDOW: Shipuden Atta Online.dm;Code\Areas.dm;Code\objects.dm;Code\playerCommands.dm;Code\playerVars.dm;Code\Items.dm;Code\playerProc.dm;Code\mobs.dm;Code\playerJutsus.dm;Code\playerOverride.dm;academy.dmm
+FILE: academy.dmm
 */
 // END_INTERNALS

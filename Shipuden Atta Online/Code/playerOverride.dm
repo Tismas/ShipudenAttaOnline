@@ -8,6 +8,7 @@ mob
 			// Initializing Browser tab
 			ShowBrowserHelp()
 			world << "\[<font color='aqua'>SAO</font>\] <font color='red'>[usr]</font> has logged in!"
+
 			// If new user has logged in
 			loc = locate(24,80,1)
 			..()

@@ -9,7 +9,6 @@
 #define FILE_DIR .
 #define FILE_DIR "Assets"
 #define FILE_DIR "Assets/Icons"
-#define FILE_DIR "Assets/Icons/New"
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
