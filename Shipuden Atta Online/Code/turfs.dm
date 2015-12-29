@@ -30,3 +30,5 @@ turf
 		icon = 'stamina.dmi'
 	leafroad
 		icon = 'leafroad.dmi'
+	shore
+		icon = 'shore.dmi'
