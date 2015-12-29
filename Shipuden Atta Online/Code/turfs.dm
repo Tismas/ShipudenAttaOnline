@@ -28,3 +28,5 @@ turf
 		icon = 'floor.dmi'
 	stamina
 		icon = 'stamina.dmi'
+	leafroad
+		icon = 'leafroad.dmi'
