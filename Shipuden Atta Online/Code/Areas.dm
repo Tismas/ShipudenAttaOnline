@@ -51,8 +51,18 @@ area
 		Exited()
 			usr:WaterTraining = 0
 			..()
+
+	StaminaMountain
+		Entered()
+			usr:isOnMountain = 1
+			..()
+		Exited()
+			usr:isOnMountain = 0
+			..()
+
 	LeafVillage
 		name = "Leaf Village"
+
 	GeninExamArea
 		Entered()
 			usr << "<font color='gray' size='1'>When the exam starts you will have one minute to complete 10 tasks</font>"

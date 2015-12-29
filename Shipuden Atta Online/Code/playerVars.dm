@@ -89,3 +89,6 @@ mob
 
 			WaterTraining
 			LoopCount = 0
+
+			hasWeights = 0
+			isOnMountain = 0

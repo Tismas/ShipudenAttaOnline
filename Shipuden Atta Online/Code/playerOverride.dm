@@ -95,6 +95,15 @@ mob
 			else
 				return
 
+			// Gorka staminy
+			if(hasWeights || isOnMountain && usr.dir == NORTH)
+				if(rand(1,100) == 40)
+					MaxStamina += rand(1,20)
+			if(hasWeights || isOnMountain && usr.dir != SOUTH)
+				rundelay = 5
+			else
+				rundelay = 2
+
 			// Przeniesienie z respa przed akademie
 			if(loc == locate(2, 99, 1))
 				loc = locate(526, 534, 1)
