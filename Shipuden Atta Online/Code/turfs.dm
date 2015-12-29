@@ -26,3 +26,5 @@ turf
 		icon = 'floor.dmi' // TODO
 	floor
 		icon = 'floor.dmi'
+	stamina
+		icon = 'stamina.dmi'

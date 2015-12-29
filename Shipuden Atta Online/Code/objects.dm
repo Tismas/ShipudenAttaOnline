@@ -91,3 +91,7 @@ obj
 				usr << "<font size='1' color='gray'>You picked up [amount] gold.</font>"
 				usr:Money += amount
 				del(src)
+	Tree
+		icon = 'tree.dmi'
+	Sign
+		icon = 'sign.dmi'

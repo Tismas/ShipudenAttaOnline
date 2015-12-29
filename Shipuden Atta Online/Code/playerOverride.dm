@@ -97,29 +97,29 @@ mob
 
 			// Przeniesienie z respa przed akademie
 			if(loc == locate(2, 99, 1))
-				loc = locate(41, 144, 1)
+				loc = locate(526, 534, 1)
 
 			// Wejscie do akademii
-			if(get_step(usr,dir) == locate(41,143,1))
+			if(get_step(usr,dir) == locate(525,533,1))
 				JustTeleported = 1
 				if(Rank == "Academy Student")
 					loc = locate(23,2,1)
 				else
 					usr << "<font size='1' color='gray'>Only academy students may enter there.</font>"
-					loc = locate(41,144,1)
-			if(get_step(usr,dir) == locate(42,143,1))
+					loc = locate(525,534,1)
+			if(get_step(usr,dir) == locate(526,533,1))
 				JustTeleported = 1
 				if(Rank == "Academy Student")
 					loc = locate(24,2,1)
 				else
 					usr << "<font size='1' color='gray'>Only academy students may enter there.</font>"
-					loc = locate(42,144,1)
+					loc = locate(526,534,1)
 
 			// Wyjscie z akademii
 			if(get_step(usr,dir) == locate(23,1,1) && !JustTeleported)
-				loc = locate(41,144,1)
+				loc = locate(525,534,1)
 			if(get_step(usr,dir) == locate(24,1,1) && !JustTeleported)
-				loc = locate(42,144,1)
+				loc = locate(526,534,1)
 
 			// Wejscie na egzamin na genina
 			var/examTime = TimeToGeninExam/60
