@@ -23,7 +23,7 @@ turf
 		icon = 'blank.dmi'
 		density = 1
 	gravel
-		icon = 'floor.dmi' // TODO
+		icon = 'gravel.dmi' // TODO
 	floor
 		icon = 'floor.dmi'
 	stamina
