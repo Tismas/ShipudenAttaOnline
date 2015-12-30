@@ -18,8 +18,9 @@ Things to do:
 - Weapons, Fished, Suits
 - Bingo book
 
-✓ Update icons
-✓ Stamina mountain
+Done recently:
+- Update icons
+- Stamina mountain
 
 Ideas:
 - Jutsu upgrades when used x times
