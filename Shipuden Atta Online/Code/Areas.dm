@@ -44,20 +44,14 @@ proc
 
 area
 	Water
-		Entered()
+		Entered(atom/movable/Obj)
+			if(Obj.type != /mob/Player) return
 			usr:WaterTraining = 1
 			WaterWalking()
 			..()
-		Exited()
+		Exited(atom/movable/Obj)
+			if(Obj.type != /mob/Player) return
 			usr:WaterTraining = 0
-			..()
-
-	StaminaMountain
-		Entered()
-			usr:isOnMountain = 1
-			..()
-		Exited()
-			usr:isOnMountain = 0
 			..()
 
 	LeafVillage

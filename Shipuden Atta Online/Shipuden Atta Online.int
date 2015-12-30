@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1451309813
+LAST_COMPILE_TIME: 1451469826
 DIR: Assets\Icons Code 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 509.1317
-WINDOW: Shipuden Atta Online.dm;Code\Areas.dm;Code\objects.dm;Code\playerCommands.dm;Code\playerVars.dm;Code\Items.dm;Code\playerProc.dm;Code\mobs.dm;Code\playerJutsus.dm;Code\playerOverride.dm;academy.dmm
-FILE: academy.dmm
+WINDOW: Shipuden Atta Online.dm;Code\Areas.dm;Code\objects.dm;Code\playerCommands.dm;Code\playerVars.dm;Code\Items.dm;Code\playerProc.dm;Code\mobs.dm;Code\playerJutsus.dm;Code\playerOverride.dm;Code\turfs.dm;Assets\Icons\shore.dmi;Assets\Icons\sand.dmi;academy.dmm;Assets\Icons\shuriken.dmi
+FILE: Code\playerOverride.dm
 */
 // END_INTERNALS
