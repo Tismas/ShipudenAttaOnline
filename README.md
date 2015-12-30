@@ -19,7 +19,6 @@ Things to do:
 - Bingo book
 
 ✓ Update icons
-
 ✓ Stamina mountain
 
 Ideas:
