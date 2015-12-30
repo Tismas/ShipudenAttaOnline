@@ -14,10 +14,11 @@ Things to do:
 - Jutsus and their requuirements
 - Beta tests (Who tab in particular)
 - Delete beta verbs
- ✔ Updated icons
 - Pvp restrictions
 - Weapons, Fished, Suits
 - Bingo book
+
+ ✔ Updated icons
  ✔ Stamina mountain
 
 Ideas:
