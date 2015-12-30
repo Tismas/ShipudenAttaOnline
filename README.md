@@ -18,7 +18,9 @@ Things to do:
 - Weapons, Fished, Suits
 - Bingo book
 
+
  ✔ Updated icons
+
  ✔ Stamina mountain
 
 Ideas:
