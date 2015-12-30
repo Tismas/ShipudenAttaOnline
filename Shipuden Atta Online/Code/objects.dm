@@ -93,5 +93,6 @@ obj
 				del(src)
 	Tree
 		icon = 'tree.dmi'
+		density = 1
 	Sign
 		icon = 'sign.dmi'
