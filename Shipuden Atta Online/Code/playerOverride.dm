@@ -97,8 +97,8 @@ mob
 
 			// Gorka staminy
 			if(hasWeights || isOnMountain && usr.dir == NORTH)
-				if(rand(1,100) == 40)
-					MaxStamina += rand(1,20)
+				if(rand(1,10) == 5)
+					MaxStamina += rand(5,20)
 			if(hasWeights || isOnMountain && usr.dir != SOUTH)
 				rundelay = 5
 			else
