@@ -23,7 +23,7 @@ turf
 		icon = 'blank.dmi'
 		density = 1
 	gravel
-		icon = 'gravel.dmi' // TODO
+		icon = 'gravel.dmi'
 	floor
 		icon = 'floor.dmi'
 	stamina
@@ -32,3 +32,5 @@ turf
 		icon = 'leafroad.dmi'
 	shore
 		icon = 'shore.dmi'
+	underwaterfall
+		icon = 'underwaterfall.dmi'
