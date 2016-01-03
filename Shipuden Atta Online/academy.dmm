@@ -6,7 +6,7 @@
 "f" = (/turf/water{icon_state = "waterfall"},/area/Water)
 "g" = (/turf/shore,/area)
 "h" = (/turf/water,/area)
-"i" = (/turf/underwaterfall,/area)
+"i" = (/turf/water{tag = "icon-under"; icon_state = "under"},/area)
 "j" = (/turf/shore{icon_state = "right"},/area)
 "k" = (/turf/shore{icon_state = "bottomleft"},/area)
 "l" = (/turf/shore{icon_state = "bottom"},/area)
