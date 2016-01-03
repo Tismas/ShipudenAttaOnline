@@ -130,12 +130,13 @@ mob
 				usr << "<font color='red'>[M]</font><- [msg]"
 			// flick(State,usr) - attack animation
 			Attack()
+				set category = "Tai"
 				for(var/mob/M in get_step(loc,dir))
 					if(!M) return
 					if(resting) return
 					if(world.time - LastAttack > 5 && Stamina>0)
-						set category = "Tai"
 						var/damage = Tai
+						flick("Attack",usr)
 						// usr << "<font size='1' color='gray'>You did [damage] damage to [M]!</font>"
 						F_damage(M, damage, "#ffffff")
 						if(istype(M,/mob/Treestump))
@@ -176,6 +177,7 @@ mob
 				// Rest
 				if(!resting && (Health < MaxHealth || Stamina < MaxStamina || Chakra < MaxChakra) && invisibility == 0 && !WaterTraining)
 					resting = 1
+					icon_state = "Rest"
 					usr << "<font size='1'>You sit down to rest.</font>"
 					while(resting)
 						sleep(10)
@@ -197,6 +199,7 @@ mob
 							Chakra = MaxChakra
 							Health = Health
 					usr << "<font size='1'>You have finished resting.</font>"
+					icon_state = "male"
 
 					if(ChakraControl > 100)
 						ChakraControl = 100
