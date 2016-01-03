@@ -32,5 +32,5 @@ turf
 		icon = 'leafroad.dmi'
 	shore
 		icon = 'shore.dmi'
-	underwaterfall
-		icon = 'underwaterfall.dmi'
+	woodenWall
+		icon = 'wall2.dmi'
