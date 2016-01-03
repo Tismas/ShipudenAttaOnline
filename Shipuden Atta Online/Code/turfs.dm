@@ -34,3 +34,4 @@ turf
 		icon = 'shore.dmi'
 	woodenWall
 		icon = 'wall2.dmi'
+		density = 1
