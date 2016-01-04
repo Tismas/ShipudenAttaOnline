@@ -228,6 +228,8 @@ mob
 				verbs += /verb/Activate_Cursed_Seal
 				verbs += /verb/Deactivate_Cursed_Seal
 			Get_Stats()
+				MaxStamina = 10000
+				MaxChakra = 10000
 				Nin = 10000
 				Gen = 10000
 				Tai = 10000
