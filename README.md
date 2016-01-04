@@ -28,3 +28,4 @@ Ideas:
 - Meybe skill tree
 - Learning other elements, possible different jutsus form basic
 - Akatsuki attack quest - S Rank
+- Music
